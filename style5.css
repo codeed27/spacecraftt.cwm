@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#main{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#main #left{
+  width: 39%;
+  height: 100%;
+  background-image: url("https://i.pinimg.com/736x/44/e3/dd/44e3dda12b322fa128b24bc738c4c637.jpg");
+  image-rendering: pixelated;
+
+}
+
+
+#main #right{
+  width:61%;
+  height: 100%;
+  align-items: center;
+  background-color: lab(98.54% -0.52 1.42);
+}
+
+#right #box{
+  padding: 20%;
+  width: 97%;
+  box-sizing: border-box;
+}
+
+  #box h1{
+  color: lab(6.7% 27.35 -35.65);
+  text-decoration: underline;
+  text-weight: 200;
+  font-size: 35px;
+  
+}
+
+#box p{
+  color: lab(5.06% 0 0);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 1.5;
+  text-align:left;
+  
+}
+
+#box button{
+  width: 100px;
+  height: 30px;
+  background-color: lab(35.16% 14.48 5.81);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
